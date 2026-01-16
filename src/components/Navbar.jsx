@@ -56,7 +56,7 @@ const Navbar = () => {
           </div>
           {/* Nav links visible on medium screens */}
           {mobileDrawerOpen && (
-            <div className="fixed right-0 z-20 w-full lg:hidden p-12 md:flex flex-col  justify-between items-center  bg-neutral-900">
+            <div className="fixed right-0 z-20  w-full lg:hidden p-12 md:flex flex-col  justify-between items-center  bg-neutral-900">
               <ul className="flex flex-col justify-center items-center ">
                 {navItems.map((item, index) => (
                   <li key={index} className="py-4">
