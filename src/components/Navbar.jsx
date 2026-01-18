@@ -36,13 +36,13 @@ const Navbar = () => {
             <div className="hidden lg:flex justify-center space-x-12 items-center">
               <a
                 href="#"
-                className="px-3 py-2 rounded-md border  border-amber-50"
+                className="px-3 py-2 rounded-md border  border-amber-50 text-center"
               >
                 Sign In
               </a>
               <a
                 href="#"
-                className="bg-linear-to-r from-orange-500 to-orange-800 px-3 py-2 rounded-md "
+                className="bg-linear-to-r from-orange-500 to-orange-800 px-3 py-2 rounded-md  text-center"
               >
                 Create an account
               </a>
@@ -67,13 +67,13 @@ const Navbar = () => {
               <div className="flex flex-row space-x-6 justify-center items-center">
                 <a
                   href="#"
-                  className="px-3 py-2 border border-amber-50 rounded-md"
+                  className="px-3 py-2 border border-amber-50 rounded-md text-center"
                 >
                   Sign In
                 </a>
                 <a
                   href="#"
-                  className="px-3 py-2 bg-linear-to-r from-orange-500 to-orange-800 rounded-md"
+                  className="px-3 py-2 bg-linear-to-r from-orange-500 to-orange-800 rounded-md text-center"
                 >
                   Create an account
                 </a>
