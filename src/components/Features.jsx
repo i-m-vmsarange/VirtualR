@@ -2,7 +2,7 @@ import React from "react";
 import { features } from "../constants";
 const Features = () => {
   return (
-    <div className="relative mt-20 border-b border-neutral-800 min-h-200">
+    <div className="relative max-w-7xl mx-auto mt-20 border-b border-neutral-800 min-h-200">
       {/* Features capsule element */}
       <div className="text-center">
         <span className="rounded-full h-6 text-orange-500 bg-neutral-900 font-medium px-2 py-1 uppercase text-sm ">
@@ -21,13 +21,15 @@ const Features = () => {
         {features.map((feature, index) => {
           return (
             <div key={index} className="w-full  sm:w-1/2 lg:w-1/3">
-              <div className="flex">
+              <div className="flex p-4 sm:p-0 lg:p-0">
+                {/* Icon */}
                 <div className="flex bg-neutral-900 p-2 items-center justify-center text-orange-700 text-sm mx-6 h-10 w-10 rounded-full">
                   {feature.icon}
                 </div>
+                {/* Heading and paragraph */}
                 <div>
                   <h5 className="mt-1 mb-6 text-xl">{feature.text}</h5>
-                  <p className="text-neutral-500 text-md p-2 mb-20">
+                  <p className="text-neutral-500 text-md p-2 mb-20 min-w-3/4">
                     {feature.description}
                   </p>
                 </div>
