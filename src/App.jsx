@@ -1,6 +1,7 @@
 import Features from "./components/Features";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
+import Price from "./components/Price";
 import Workflow from "./components/Workflow";
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
       </div>
       <Features />
       <Workflow />
+      <Price />
     </>
   );
 };
