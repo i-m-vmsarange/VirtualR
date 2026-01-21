@@ -64,16 +64,16 @@ const Navbar = () => {
                   </li>
                 ))}
               </ul>
-              <div className="flex flex-row space-x-6 justify-center items-center">
+              <div className="flex flex-row space-x-6 justify-center items-center mt-4">
                 <a
                   href="#"
-                  className="px-3 py-2 border border-amber-50 rounded-md text-center"
+                  className="px-2 py-2  border border-amber-50 rounded-md text-center"
                 >
                   Sign In
                 </a>
                 <a
                   href="#"
-                  className="px-3 py-2 bg-linear-to-r from-orange-500 to-orange-800 rounded-md text-center"
+                  className="px-2 py-2  bg-linear-to-r from-orange-500 to-orange-800 rounded-md text-center"
                 >
                   Create an account
                 </a>
